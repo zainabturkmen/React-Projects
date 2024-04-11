@@ -11,7 +11,8 @@ function App() {
 
 const fetchJobs = async () => {
   const response = await fetch(url);
-  
+  const jobs = await response.json();
+
 }
   return <h2>tabs project setup</h2>
 }
