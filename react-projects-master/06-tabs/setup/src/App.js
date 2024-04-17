@@ -13,6 +13,7 @@ const fetchJobs = async () => {
   const response = await fetch(url);
   const newJobs = await response.json();
   setJobs(newJobs)
+  setLoading(false)
 }
   return <h2>tabs project setup</h2>
 }
