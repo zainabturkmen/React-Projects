@@ -15,6 +15,10 @@ const fetchJobs = async () => {
   setJobs(newJobs)
   setLoading(false)
 }
+
+useEffect(() => {
+  fetchJobs()
+})
   return <h2>tabs project setup</h2>
 }
 
