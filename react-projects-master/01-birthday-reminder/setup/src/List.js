@@ -1,7 +1,11 @@
 import React from "react";
 
-const List = () => {
-
+const List = ({people}) => {
+  return(
+    {people.map((person)=> {
+      
+    })}
+  )
 };
 
 export default List;
