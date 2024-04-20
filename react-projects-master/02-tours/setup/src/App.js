@@ -12,6 +12,7 @@ function App() {
     setLoading(true);
     const response = await fetch(url);
     const tours = await response.json();
+    console.log(tours);
   };
 
   if (loading) {
