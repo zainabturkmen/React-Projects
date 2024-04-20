@@ -9,8 +9,10 @@ function App() {
   const [tours, setTours] = useState([]);
 
   const fetchTours = async () => {
-    setLoading(true)
+    setLoading(true);
+    const response = await fetch(url)
   };
+
   if (loading) {
     return (
       <main>
