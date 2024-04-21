@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Tour from "./Tour";
 const Tours = ({ tours }) => {
-  const [readMore, setReadMore] = useState(false)
   return (
     <section>
       <div className="title">
