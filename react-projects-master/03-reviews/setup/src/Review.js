@@ -13,20 +13,20 @@ const Review = () => {
     if (number < 0) {
       return people.length - 1;
     }
-    return;
+    return number;
   };
 
   const nextPerson = () => {
     setIndex((index) => {
       let newIndex = index + 1;
-      return newIndex;
+      return checkNumber(newIndex);
     });
   };
 
   const prevPerson = () => {
     setIndex((index) => {
       let newIndex = index - 1;
-      return newIndex;
+      return checkNumber(newIndex);
     });
   };
 
