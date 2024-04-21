@@ -24,8 +24,8 @@ const Review = () => {
   };
 
   const randomPerson = () => {
-    
-  }
+    let randomNumber = Math.floor(Math.random() * people.length); 
+  };
 
   const prevPerson = () => {
     setIndex((index) => {
@@ -53,7 +53,9 @@ const Review = () => {
           <FaChevronRight />
         </button>
       </div>
-      <button className="random-btn">surpeise me</button>
+      <button className="random-btn" onClick={randomPerson}>
+        surpeise me
+      </button>
     </article>
   );
 };
