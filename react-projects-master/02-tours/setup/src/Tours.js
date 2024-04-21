@@ -17,3 +17,4 @@ const Tours = ({ tours }) => {
 };
 
 export default Tours;
+ 
