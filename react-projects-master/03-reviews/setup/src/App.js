@@ -1,7 +1,12 @@
-import React from 'react';
-import Review from './Review';
+import React from "react";
+import Review from "./Review";
+import { FaGitSquare } from "react-icons/fa";
 function App() {
-  return <h2>reviews project setup</h2>;
+  return (
+    <main>
+      <div className="container"></div>
+    </main>
+  );
 }
 
 export default App;
