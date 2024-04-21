@@ -11,8 +11,9 @@ const Review = () => {
       return 0;
     }
     if (number < 0) {
-      return people.length -1
+      return people.length - 1;
     }
+    return;
   };
 
   const nextPerson = () => {
