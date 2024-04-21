@@ -23,6 +23,10 @@ const Review = () => {
     });
   };
 
+  const randomPerson = () => {
+    
+  }
+
   const prevPerson = () => {
     setIndex((index) => {
       let newIndex = index - 1;
