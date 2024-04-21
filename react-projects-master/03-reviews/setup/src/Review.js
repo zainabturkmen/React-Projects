@@ -14,6 +14,7 @@ const Review = () => {
           <FaQuoteRight />
         </span>
       </div>
+      <h4 className="auhtor"></h4>
     </article>
   );
 };
