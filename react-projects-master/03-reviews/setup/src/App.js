@@ -1,6 +1,6 @@
 import React from "react";
 import Review from "./Review";
-import { FaGitSquare } from "react-icons/fa";
+
 function App() {
   return (
     <main>
@@ -9,6 +9,7 @@ function App() {
           <h2>our reviews</h2>
           <div className="underline"> </div>
         </div>
+        <Review />
       </div>
     </main>
   );
