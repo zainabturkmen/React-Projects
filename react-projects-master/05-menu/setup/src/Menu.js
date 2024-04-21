@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Menu = () => {
+const Menu = ({item}) => {
   return <h2>menu component</h2>;
 };
 
