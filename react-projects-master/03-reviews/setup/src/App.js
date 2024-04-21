@@ -4,7 +4,9 @@ import { FaGitSquare } from "react-icons/fa";
 function App() {
   return (
     <main>
-      <div className="container"></div>
+      <div className="container">
+        <div className="title"></div>
+      </div>
     </main>
   );
 }
