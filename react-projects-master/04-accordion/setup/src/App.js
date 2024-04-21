@@ -10,7 +10,7 @@ function App() {
         <h3>Questions and answers about login</h3>
         <section className="info">
          {questions.map((question)=> {
-          return
+          return <SingleQuestion />
          })}
           </section>
       </div>
