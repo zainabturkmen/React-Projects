@@ -25,6 +25,9 @@ const Review = () => {
 
   const randomPerson = () => {
     let randomNumber = Math.floor(Math.random() * people.length); 
+    if(randomNumber === index){
+      
+    }
   };
 
   const prevPerson = () => {
