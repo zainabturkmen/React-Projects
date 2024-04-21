@@ -24,10 +24,11 @@ const Review = () => {
   };
 
   const randomPerson = () => {
-    let randomNumber = Math.floor(Math.random() * people.length); 
-    if(randomNumber === index){
-      return randomNumber + 1
+    let randomNumber = Math.floor(Math.random() * people.length);
+    if (randomNumber === index) {
+      return randomNumber + 1;
     }
+    setIndex(checkNumbe(randomNumber));
   };
 
   const prevPerson = () => {
