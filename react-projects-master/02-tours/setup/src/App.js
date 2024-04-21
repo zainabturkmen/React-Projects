@@ -43,12 +43,18 @@ function App() {
     );
   }
 
-  if (tours.length === 0){}
+  if (tours.length === 0) {
     return (
       <main>
-        <Tours tours={tours} removeTour={removeTour} />
+        <div className="title"></div>
       </main>
     );
+  }
+  return (
+    <main>
+      <Tours tours={tours} removeTour={removeTour} />
+    </main>
+  );
 }
 
 export default App;
