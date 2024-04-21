@@ -43,12 +43,12 @@ function App() {
     );
   }
 
-  if()
-  return (
-    <main>
-      <Tours tours={tours} removeTour={removeTour} />
-    </main>
-  );
+  if (tours.length === 0){}
+    return (
+      <main>
+        <Tours tours={tours} removeTour={removeTour} />
+      </main>
+    );
 }
 
 export default App;
