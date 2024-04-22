@@ -35,7 +35,8 @@ function App() {
         <div className="underline"></div>
       </div>
       <div className="jobs-center">
-        
+        {/* btn container */}
+        {/* job info */}
       </div>
     </section>
   )
