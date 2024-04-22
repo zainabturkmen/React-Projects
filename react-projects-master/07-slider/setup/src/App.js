@@ -15,6 +15,10 @@ function App() {
       <div className="section-center">
         {people.map((person, index)=>{
           const {id, image, name, title, quote} = person
+          // more stuff coming here
+          return <article key={id} >
+            <img src={image} alt={name} className="person-img"/>
+          </article>
         })}
       </div>
     </section>
