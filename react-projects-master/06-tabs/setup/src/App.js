@@ -19,6 +19,10 @@ const fetchJobs = async () => {
 useEffect(() => {
   fetchJobs()
 }, [])
+
+if (loading) {
+  
+}
   return <h2>Jobs</h2>
 }
 
