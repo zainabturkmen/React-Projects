@@ -11,6 +11,9 @@ function App() {
     if (index < 0) {
       setIndex(lastIndex)
     }
+    if (index > lastIndex) {
+      setIndex(0)
+    }
   }, [index, people])
 
   return (
