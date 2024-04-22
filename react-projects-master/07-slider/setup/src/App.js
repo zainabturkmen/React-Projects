@@ -8,7 +8,9 @@ function App() {
 
   useEffect(()=> {
     const lastIndex = people.length - 1;
+    
   }, [index, people])
+
   return (
     <section className="section">
       <div className="title">
