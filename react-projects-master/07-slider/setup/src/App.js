@@ -16,13 +16,16 @@ function App() {
         {people.map((person, index)=>{
           const {id, image, name, title, quote} = person
           // more stuff coming here
-          return <article key={id} >
-            <img src={image} alt={name} className="person-img"/>
-            <h4>{name}</h4>
-            <p className="title">{title}</p>
-            <p className="text">{quote}</p>
-            <FaQuoteRight className="icon"/>
-          </article>
+          let position = "nextSlide";
+          return (
+            <article key={id} className={position}>
+              <img src={image} alt={name} className="person-img" />
+              <h4>{name}</h4>
+              <p className="title">{title}</p>
+              <p className="text">{quote}</p>
+              <FaQuoteRight className="icon" />
+            </article>
+          );
         })}
         <button className="prev">
           <FiChevronLeft />
