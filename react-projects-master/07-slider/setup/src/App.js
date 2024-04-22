@@ -8,7 +8,9 @@ function App() {
 
   useEffect(()=> {
     const lastIndex = people.length - 1;
-    
+    if (index < 0) {
+      setIndex(lastIndex)
+    }
   }, [index, people])
 
   return (
