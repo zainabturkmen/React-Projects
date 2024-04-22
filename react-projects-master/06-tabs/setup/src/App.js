@@ -26,6 +26,8 @@ function App() {
       </section>
     );
   }
+
+  const {company, dates, duties, title} = jobs
   return <h2>Jobs</h2>;
 }
 
