@@ -16,6 +16,10 @@ function App() {
     }
   }, [index, people])
 
+  useEffect(()=> {
+
+  },[])
+  
   return (
     <section className="section">
       <div className="title">
