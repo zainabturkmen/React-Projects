@@ -21,7 +21,7 @@ function App() {
             position = "activeSlide"
           }
 
-          if () {
+          if (personIndex === index - 1) {
             position = "lastIndex"
           }
           return (
