@@ -21,7 +21,9 @@ useEffect(() => {
 }, [])
 
 if (loading) {
-  
+  return{
+    
+  }
 }
   return <h2>Jobs</h2>
 }
