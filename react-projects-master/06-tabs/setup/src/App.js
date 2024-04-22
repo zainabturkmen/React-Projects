@@ -37,6 +37,10 @@ function App() {
       <div className="jobs-center">
         {/* btn container */}
         {/* job info */}
+        <article className="job-info">
+          <h3>{title}</h3>
+          <h4>{company}</h4>
+        </article>
       </div>
     </section>
   )
