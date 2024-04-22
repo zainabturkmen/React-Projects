@@ -17,7 +17,9 @@ function App() {
   }, [index, people])
 
   useEffect(()=> {
-
+    setInterval(()> {
+      
+    })
   },[index])
 
   return (
