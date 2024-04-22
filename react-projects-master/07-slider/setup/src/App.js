@@ -7,8 +7,8 @@ function App() {
   const [index, setIndex] = useState(0);
 
   useEffect(()=> {
-    
-  }, [])
+
+  }, [index, people])
   return (
     <section className="section">
       <div className="title">
