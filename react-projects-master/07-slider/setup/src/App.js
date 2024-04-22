@@ -7,7 +7,7 @@ function App() {
   const [index, setIndex] = useState(0);
 
   useEffect(()=> {
-
+    const lastIndex = people.length - 1;
   }, [index, people])
   return (
     <section className="section">
