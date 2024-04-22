@@ -19,7 +19,7 @@ const fetchJobs = async () => {
 useEffect(() => {
   fetchJobs()
 }, [])
-  return <h2>tabs project setup</h2>
+  return <h2>Jobs</h2>
 }
 
 export default App
