@@ -40,6 +40,7 @@ function App() {
         <article className="job-info">
           <h3>{title}</h3>
           <h4>{company}</h4>
+          <p className="job-date">{dates}</p>
         </article>
       </div>
     </section>
