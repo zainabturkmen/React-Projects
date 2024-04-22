@@ -18,8 +18,8 @@ function App() {
 
   useEffect(()=> {
 
-  },[])
-  
+  },[index])
+
   return (
     <section className="section">
       <div className="title">
