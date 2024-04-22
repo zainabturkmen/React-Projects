@@ -13,7 +13,7 @@ function App() {
         </h2>
       </div>
       <div className="section-center">
-        {people.map((person, index)=>{
+        {people.map((person, personIndex)=>{
           const {id, image, name, title, quote} = person
           // more stuff coming here
           let position = "nextSlide";
