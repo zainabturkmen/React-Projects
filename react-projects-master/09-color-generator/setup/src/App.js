@@ -37,7 +37,7 @@ function App() {
         </form>
       </section>
       <section className="colors">
-        {list.map((item, index)=> {
+        {list.map((color, index)=> {
           
         })}
       </section>
