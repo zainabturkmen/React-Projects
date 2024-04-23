@@ -38,7 +38,7 @@ function App() {
       </section>
       <section className="colors">
         {list.map((color, index)=> {
-          
+          return <SingleColor />
         })}
       </section>
     </>
