@@ -6,7 +6,7 @@ const SingleColor = ({rgb, weight, index}) => {
   const bcg = rgb.join(",")
   return (
     <article className={`color`} style={{backgroundColor:`rgb(${bcg})`}}>
-      <p className="percent-value">{weight}</p>
+      <p className="percent-value">{weight}%</p>
     </article>
   )
 }
