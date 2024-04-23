@@ -33,7 +33,7 @@ function App() {
         </h2>
       </div>
 
-      <Review people={people}  index={index}/>
+      <Review people={people}  index={index} setIndex={setIndex}/>
 
       {/* <div className="section-center">
         {people.map((person, personIndex)=>{
