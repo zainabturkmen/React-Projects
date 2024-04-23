@@ -20,7 +20,7 @@ function App() {
         <h3>grocery bud</h3>
         <div className='form-control'>
           <input type='text' />
-          <button></button>
+          <button type='submit' className='submit'></button>
         </div>
       </form>
        <div className='grocery-container'>
