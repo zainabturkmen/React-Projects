@@ -27,14 +27,9 @@ function App() {
         </button>
       </form>
       <article className="lorem-text">
-        <p>
-          Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro.
-          De carne lumbering animata corpora quaeritis. Summus brains si
-        </p>
-        <p>
-          Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro.
-          De carne lumbering animata corpora quaeritis. Summus brains si
-        </p>
+        {text.map((item, index)=> {
+          return <p key={index}>{item}</p>
+        })}
       </article>
     </section>
   );
