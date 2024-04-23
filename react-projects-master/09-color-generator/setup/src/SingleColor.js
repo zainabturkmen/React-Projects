@@ -5,7 +5,7 @@ const SingleColor = ({rgb, weight, index}) => {
   const [alert, setAlert] = useState(false);
   const bcg = rgb.join(",")
   return (
-    <article className={`color`} style={{bacgroundColor=}}></article>
+    <article className={`color`} style={{bacgroundColor= `rgb`}}></article>
   )
 }
 
