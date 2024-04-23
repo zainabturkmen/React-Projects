@@ -21,7 +21,7 @@ function App() {
         <div className='form-control'>
           <input type='text' />
           <button type='submit' className='submit-btn'>
-            {}
+            {isEditing? "edit": "submit"}
           </button>
         </div>
       </form>
