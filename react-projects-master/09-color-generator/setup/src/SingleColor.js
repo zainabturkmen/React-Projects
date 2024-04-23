@@ -8,7 +8,10 @@ const SingleColor = ({rgb, weight, index, hexColor}) => {
   const hexValue = `#${hexColor}`;
 
   useEffect(()=> {
-
+    const timout = setTimeout(()=> {
+      setAlert(false)
+    }, 3000)
+    return ()=> clearTimeout(timout)
   },[alert])
   return (
     <article 
