@@ -7,7 +7,7 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("hello world");
+    setText(data)
   };
 
   return (
@@ -15,14 +15,27 @@ function App() {
       <h3>tired of boring lorem ipsum?</h3>
       <form className="lorem-form" onSubmit={handleSubmit}>
         <label htmlFor="amount">Paragraphs:</label>
-        <input type="number" name="amount" id="amount" value={count} onChange={(e)=> setCount(e.target.value)}/>
-        <button type="submit" className="btn">generate</button>
+        <input
+          type="number"
+          name="amount"
+          id="amount"
+          value={count}
+          onChange={(e) => setCount(e.target.value)}
+        />
+        <button type="submit" className="btn">
+          generate
+        </button>
       </form>
-       <article className="lorem-text">
-        <p>lorem10
-          
+      <article className="lorem-text">
+        <p>
+          Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro.
+          De carne lumbering animata corpora quaeritis. Summus brains si
         </p>
-       </article>
+        <p>
+          Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro.
+          De carne lumbering animata corpora quaeritis. Summus brains si
+        </p>
+      </article>
     </section>
   );
 }
