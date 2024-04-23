@@ -16,8 +16,13 @@ function App() {
       <form className="lorem-form" onSubmit={handleSubmit}>
         <label htmlFor="amount">Paragraphs:</label>
         <input type="number" name="amount" id="amount" value={count} onChange={(e)=> setCount(e.target.value)}/>
-        <button type="submit" className="btn"></button>
+        <button type="submit" className="btn">generate</button>
       </form>
+       <article className="lorem-text">
+        <p>lorem10
+          
+        </p>
+       </article>
     </section>
   );
 }
