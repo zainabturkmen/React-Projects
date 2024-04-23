@@ -15,7 +15,8 @@ function App() {
       console.log(colors ); 
       
     } catch (error) {
-      
+      console.log(error);
+      setError(true)
     }
   };
 
