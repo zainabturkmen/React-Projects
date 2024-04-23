@@ -12,7 +12,7 @@ function App() {
     e.preventDefault();
     try {
       let colors = new Values(color).all(10);
-      setList()
+      setList(colors)
     } catch (error) {
       console.log(error);
       setError(true);
@@ -37,7 +37,9 @@ function App() {
         </form>
       </section>
       <section className="colors">
-        <h4>list goes here</h4>
+        {list.map((item, index)=> {
+          
+        })}
       </section>
     </>
   );
