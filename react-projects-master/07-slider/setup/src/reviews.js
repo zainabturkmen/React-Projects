@@ -1,6 +1,7 @@
+import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
+import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 
-
-const Review = ({ people , index}) => {
+const Review = ({ people, index }) => {
   <div className="section-center">
     {people.map((person, personIndex) => {
       const { id, image, name, title, quote } = person;
