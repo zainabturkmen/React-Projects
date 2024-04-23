@@ -6,7 +6,7 @@ const SingleColor = ({rgb, weight, index, hexColor}) => {
   const bcg = rgb.join(",")
   const hex = rgbToHex(...rgb);
   return (
-    <article className={`color`} style={{ backgroundColor: `rgb(${bcg})` }}>
+    <article className={`color ${index > 10 && "color-light"}`} style={{ backgroundColor: `rgb(${bcg})` }}>
       <p className="percent-value">{weight}%</p>
       <p className="color-value">{hexColor}</p>
     </article>
