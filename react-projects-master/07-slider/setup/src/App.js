@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
 import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 import data from "./data";
+import Review from "./reviews"
 function App() {
   const [people, setPeople] = useState(data);
   const [index, setIndex] = useState(0);
@@ -31,7 +32,10 @@ function App() {
           <span>/</span>reviews
         </h2>
       </div>
-      <div className="section-center">
+
+      <Review people={people}  index={index}/>
+
+      {/* <div className="section-center">
         {people.map((person, personIndex)=>{
           const {id, image, name, title, quote} = person
           // more stuff coming here
@@ -59,7 +63,7 @@ function App() {
         <button className="next" onClick={()=> setIndex(index + 1)}>
           <FiChevronRight />
         </button>
-      </div>
+      </div> */}
     </section>
   );
 }
