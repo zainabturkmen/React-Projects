@@ -9,7 +9,7 @@ const SingleColor = ({rgb, weight, index, hexColor}) => {
 
   useEffect(()=> {
 
-  })
+  },[alert])
   return (
     <article 
     className={`color ${index > 10 && "color-light"}`} 
