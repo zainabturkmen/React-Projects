@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 
 const Alert = ({type, msg, }) => {
   return (
-    <p>{msg}</p>
+    <p className={`alert alert-${type}`}>{msg}</p>
   )
 }
 
