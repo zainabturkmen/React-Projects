@@ -14,8 +14,11 @@ function App() {
     if (!name) {
       // display alert
     }
-    else if(name){
-
+    else if(name && isEditing){
+      // deall with edit
+    }
+    else{
+      
     }
   }
   return (
