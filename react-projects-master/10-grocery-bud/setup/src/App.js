@@ -29,8 +29,8 @@ function App() {
   };
 
 
-  const showAlert = () => {
-    
+  const showAlert = (show = false, type="", msg="") => {
+
   }
 
   return (
