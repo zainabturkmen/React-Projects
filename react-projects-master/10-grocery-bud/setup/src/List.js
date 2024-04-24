@@ -12,6 +12,9 @@ const List = ({ items }) => {
               <button type="button" className="edit-btn">
                 <FaEdit />
               </button>
+              <button type="button" className="edit-btn">
+                <FaTrash />
+              </button>
             </div>
           </article>
         );
