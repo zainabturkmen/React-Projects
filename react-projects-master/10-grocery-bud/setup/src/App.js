@@ -7,7 +7,7 @@ function App() {
   const [list, setList] = useState([])
   const [isEditing, setIsEditing] = useState(false)
   const [editID, setEditID] = useState(null)
-  const [alert, setAlert] = useState({show:true, msg:"hello world", type:""})
+  const [alert, setAlert] = useState({show:true, msg:"hello world", type:"success"})
 
   const handleSubmit = (e)=> {
     e.preventDefault()
