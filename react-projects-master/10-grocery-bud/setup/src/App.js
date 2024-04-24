@@ -19,6 +19,7 @@ function App() {
     }
     else{
       // show alert
+      const newItem = {}
     }
   }
   return (
