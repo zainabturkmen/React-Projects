@@ -14,6 +14,9 @@ function App() {
     if (!name) {
       // display alert
     }
+    else if(name){
+
+    }
   }
   return (
     <section className='section-center'>
