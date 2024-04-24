@@ -19,7 +19,7 @@ function App() {
     }
     else{
       // show alert
-      const newItem = {}
+      const newItem = {id: new Date().getTime().toString, title:name}
     }
   }
   return (
