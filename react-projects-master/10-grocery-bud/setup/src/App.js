@@ -37,7 +37,7 @@ function App() {
         </div>
       </form>
        <div className='grocery-container'>
-        <List />
+        <List items= {list}/>
         <button className='clear-btn'>clear items</button>
        </div>
     </section>
