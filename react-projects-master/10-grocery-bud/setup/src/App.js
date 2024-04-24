@@ -17,7 +17,7 @@ function App() {
     e.preventDefault();
     if (!name) {
       // display alert
-      setAlert({show:true, msg:"please enter value"})
+      setAlert({show:true, msg:"please enter value", type:})
     } else if (name && isEditing) {
       // deall with edit
     } else {
