@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import List from "./List";
 import Alert from "./Alert";
+import { Fa500Px } from "react-icons/fa";
 
 function App() {
   const [name, setName] = useState("");
@@ -27,6 +28,9 @@ function App() {
         return item
       }))
       setName("")
+      setEditID(null)
+      setIsEditing(false)
+      showAlert(true, "success", "value changed")
     } else {
       showAlert(true, 'success', 'item added to the list')
       const newItem = { id: new Date().getTime().toString(), title: name };
