@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="nav-center">
         <div className="nav-header">
           <img src={logo} alt="logo" />
-          <button className="nav-toggle" onClick={}>
+          <button className="nav-toggle" onClick={()=> setShowLinks(!showLinks)}>
             <FaBars />
           </button>
         </div>
