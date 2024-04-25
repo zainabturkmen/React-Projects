@@ -39,7 +39,7 @@ function App() {
     setList([])
   }
 
-  const removeList = ()=> {
+  const removeList = (id)=> {
     
   }
 
