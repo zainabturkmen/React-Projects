@@ -13,7 +13,9 @@ const Navbar = () => {
             <FaBars />
           </button>
         </div>
-        {}
+        {links.map((link)=> {
+          const {} = link
+        })}
         <ul className="social-icons">
           <li>
             <a href="https://www.twitter.com">
