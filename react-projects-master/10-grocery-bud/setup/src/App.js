@@ -41,7 +41,7 @@ function App() {
 
   const removeList = (id)=> {
     showAlert(true, "danger", "item removed")
-    setList()
+    setList(list.filter((item)=> item.id !== id))
   }
 
   return (
