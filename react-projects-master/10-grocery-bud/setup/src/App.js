@@ -62,8 +62,8 @@ function App() {
   }
 
   useEffect(()=> {
-    
-  })
+
+  },[])
 
   return (
     <section className="section-center">
