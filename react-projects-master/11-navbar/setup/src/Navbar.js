@@ -13,9 +13,11 @@ const Navbar = () => {
             <FaBars />
           </button>
         </div>
-        {links.map((link)=> {
-          const {id, url, text} = link
-          return <li></li>
+        {links.map((link) => {
+          const { id, url, text } = link;
+          return <li key={id}>
+            <a href={url}>{text}</a>
+          </li>;
         })}
         <ul className="social-icons">
           <li>
