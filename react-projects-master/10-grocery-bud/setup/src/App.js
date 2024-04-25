@@ -3,6 +3,10 @@ import List from "./List";
 import Alert from "./Alert";
 import { Fa500Px } from "react-icons/fa";
 
+const getLocalStorage = ()=> {
+  
+}
+
 function App() {
   const [name, setName] = useState("");
   const [list, setList] = useState([]);
