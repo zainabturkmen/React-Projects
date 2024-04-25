@@ -39,6 +39,10 @@ function App() {
     setList([])
   }
 
+  const removeList = ()=> {
+    
+  }
+
   return (
     <section className="section-center">
       <form className="grocery-form" onSubmit={handleSubmit}>
