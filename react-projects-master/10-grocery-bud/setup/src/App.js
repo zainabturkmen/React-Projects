@@ -21,7 +21,7 @@ function App() {
       setAlert({show:true, msg:"please enter value", type:"danger"})
     } else if (name && isEditing) {
       setList(list.map((item)=> {
-
+        return item
       }))
     } else {
       showAlert(true, 'success', 'item added to the list')
