@@ -22,10 +22,11 @@ function App() {
     } else if (name && isEditing) {
       setList(list.map((item)=> {
         if(item.id === editID){
-          return {...item}
+          return {...item, title:name}
         }
         return item
       }))
+      setName("")
     } else {
       showAlert(true, 'success', 'item added to the list')
       const newItem = { id: new Date().getTime().toString(), title: name };
