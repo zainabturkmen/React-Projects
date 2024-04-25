@@ -6,13 +6,13 @@ import logo from "./logo.svg";
 const Navbar = () => {
 
   const [showLinks, setShowLinks] = useState();
-  
+
   return (
     <nav>
       <div className="nav-center">
         <div className="nav-header">
           <img src={logo} alt="logo" />
-          <button className="nav-toggle">
+          <button className="nav-toggle" onClick={}>
             <FaBars />
           </button>
         </div>
