@@ -4,7 +4,6 @@ import { links, social } from "./data";
 import logo from "./logo.svg";
 
 const Navbar = () => {
-
   const [showLinks, setShowLinks] = useState();
 
   return (
@@ -12,7 +11,10 @@ const Navbar = () => {
       <div className="nav-center">
         <div className="nav-header">
           <img src={logo} alt="logo" />
-          <button className="nav-toggle" onClick={()=> setShowLinks(!showLinks)}>
+          <button
+            className="nav-toggle"
+            onClick={() => setShowLinks(!showLinks)}
+          >
             <FaBars />
           </button>
         </div>
