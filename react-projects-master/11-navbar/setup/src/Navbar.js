@@ -18,7 +18,7 @@ const Navbar = () => {
             <FaBars />
           </button>
         </div>
-        {}
+        {showLinks && }
         <div className="links-container show-container">
           <ul className="links">
             {links.map((link) => {
