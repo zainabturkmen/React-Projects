@@ -40,7 +40,7 @@ function App() {
   }
 
   const removeList = (id)=> {
-    showAlert
+    showAlert(true, "danger", "item removed")
   }
 
   return (
