@@ -26,7 +26,7 @@ const Navbar = () => {
             const {id, url, icon} = socialIcon
             return (
               <li key={id}>
-                
+                <a href={}></a>
               </li>
             )
           })}
