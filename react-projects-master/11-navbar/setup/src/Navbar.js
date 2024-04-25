@@ -13,7 +13,9 @@ const Navbar = () => {
             <FaBars />
           </button>
         </div>
-        <div className="links-container show-container"></div>
+        <div className="links-container show-container">
+          
+        </div>
         <ul className="social-icons"></ul>
       </div>
     </nav>
