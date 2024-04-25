@@ -62,7 +62,7 @@ function App() {
   }
 
   useEffect(()=> {
-
+    localStorage.setItem()
   },[])
 
   return (
