@@ -22,21 +22,9 @@ const Navbar = () => {
           );
         })}
         <ul className="social-icons">
-          <li>
-            <a href="https://www.twitter.com">
-              <FaTwitter />
-            </a>
-          </li>
-          <li>
-            <a href="https://www.twitter.com">
-              <FaTwitter />
-            </a>
-          </li>
-          <li>
-            <a href="https://www.twitter.com">
-              <FaTwitter />
-            </a>
-          </li>
+          {social.map(()=> {
+            
+          })}
         </ul>
       </div>
     </nav>
