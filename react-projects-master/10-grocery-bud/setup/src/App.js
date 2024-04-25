@@ -45,7 +45,7 @@ function App() {
   };
 
   const editItem = (id)=> {
-    const specificItem = list.find()
+    const specificItem = list.find((item)=> item.id !== id)
   }
 
   return (
