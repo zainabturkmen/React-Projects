@@ -20,10 +20,12 @@ function App() {
       showAlert(true, "danger", "please enter value")
       setAlert({show:true, msg:"please enter value", type:"danger"})
     } else if (name && isEditing) {
-      // deall with edit
+      setList(list.map(()=> {
+        
+      }))
     } else {
       showAlert(true, 'success', 'item added to the list')
-      const newItem = { id: new Date().getTime().toString, title: name };
+      const newItem = { id: new Date().getTime().toString(), title: name };
       setList([...list, newItem]);
       setName("");
     }
