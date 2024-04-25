@@ -9,7 +9,7 @@ const Sidebar = () => {
             const {id, url, text} = link
             return (
                 <li key={id}>
-                    <a></a>
+                    <a href={url}>{text}</a>
                 </li>
             )
          })}
