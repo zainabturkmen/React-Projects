@@ -13,22 +13,26 @@ const Navbar = () => {
             <FaBars />
           </button>
         </div>
-        {links.map((link) => {
-          const { id, url, text } = link;
-          return (
-            <li key={id}>
-              <a href={url}>{text}</a>
-            </li>
-          );
-        })}
+        <div className="links-container show-container">
+          <ul className="links">
+            {links.map((link) => {
+              const { id, url, text } = link;
+              return (
+                <li key={id}>
+                  <a href={url}>{text}</a>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
         <ul className="social-icons">
-          {social.map((socialIcon)=> {
-            const {id, url, icon} = socialIcon
+          {social.map((socialIcon) => {
+            const { id, url, icon } = socialIcon;
             return (
               <li key={id}>
                 <a href={url}>{icon}</a>
               </li>
-            )
+            );
           })}
         </ul>
       </div>
