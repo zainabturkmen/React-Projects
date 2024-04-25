@@ -36,7 +36,7 @@ function App() {
 
   const clearList = () => {
     showAlert(true, "danger", "empty list");
-    setList()
+    setList([])
   }
 
   return (
