@@ -62,7 +62,7 @@ function App() {
   }
 
   useEffect(()=> {
-    localStorage.setItem()
+    localStorage.setItem("list")
   },[])
 
   return (
