@@ -15,9 +15,11 @@ const Navbar = () => {
         </div>
         {links.map((link) => {
           const { id, url, text } = link;
-          return <li key={id}>
-            <a href={url}>{text}</a>
-          </li>;
+          return (
+            <li key={id}>
+              <a href={url}>{text}</a>
+            </li>
+          );
         })}
         <ul className="social-icons">
           <li>
