@@ -61,6 +61,10 @@ function App() {
     setName(specificItem.title)
   }
 
+  useEffect(()=> {
+    
+  })
+
   return (
     <section className="section-center">
       <form className="grocery-form" onSubmit={handleSubmit}>
