@@ -13,7 +13,7 @@ const Navbar = () => {
             <FaBars />
           </button>
         </div>
-        
+        {}
         <ul className="social-icons">
           <li>
             <a href="https://www.twitter.com">
