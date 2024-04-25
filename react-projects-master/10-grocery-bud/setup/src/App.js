@@ -4,7 +4,10 @@ import Alert from "./Alert";
 import { Fa500Px } from "react-icons/fa";
 
 const getLocalStorage = ()=> {
-  
+  let list = localStorage.getItem("list");
+  if (list) {
+    return JSON.parse(localStorage.getItem())
+  }
 }
 
 function App() {
