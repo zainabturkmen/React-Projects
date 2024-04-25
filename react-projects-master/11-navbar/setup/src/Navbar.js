@@ -18,32 +18,8 @@ const Navbar = () => {
             <FaBars />
           </button>
         </div>
-        {showLinks && (
-          <div className="links-container show-container">
-            <ul className="links">
-              {links.map((link) => {
-                const { id, url, text } = link;
-                return (
-                  <li key={id}>
-                    <a href={url}>{text}</a>
-                  </li>
-                );
-              })}
-            </ul>
-          </div>
-        )}
-        <div className="links-container show-container">
-          <ul className="links">
-            {links.map((link) => {
-              const { id, url, text } = link;
-              return (
-                <li key={id}>
-                  <a href={url}>{text}</a>
-                </li>
-              );
-            })}
-          </ul>
-        </div>
+        {showLinks && }
+
         <ul className="social-icons">
           {social.map((socialIcon) => {
             const { id, url, icon } = socialIcon;
