@@ -45,7 +45,7 @@ function App() {
   };
 
   const editItem = (id)=> {
-
+    const specificItem = list.find()
   }
 
   return (
