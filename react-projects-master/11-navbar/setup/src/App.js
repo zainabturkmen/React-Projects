@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 function App() {
-  return (
+  return ( 
     <>
       <h2>navbar project setup</h2>
     </>
