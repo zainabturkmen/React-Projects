@@ -6,6 +6,7 @@ import logo from "./logo.svg";
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState();
   const linksContainerRef = useRef(null)
+  const linksRef = useRef(null)
   return (
     <nav>
       <div className="nav-center">
