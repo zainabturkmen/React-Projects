@@ -9,8 +9,8 @@ const Navbar = () => {
   const linksRef = useRef(null)
 
   useEffect(()=> {
-
-  }, [])
+    const 
+  }, [showLinks])
 
   return (
     <nav>
