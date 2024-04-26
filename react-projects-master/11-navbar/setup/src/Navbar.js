@@ -8,6 +8,10 @@ const Navbar = () => {
   const linksContainerRef = useRef(null)
   const linksRef = useRef(null)
 
+  useEffect(()=> {
+
+  }, [])
+
   return (
     <nav>
       <div className="nav-center">
