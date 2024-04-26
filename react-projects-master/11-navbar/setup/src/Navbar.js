@@ -19,7 +19,7 @@ const Navbar = () => {
           </button>
         </div>
         {showLinks && (
-          <div className="links-container show-container">
+          <div className= {`${showLinks?"links-containershow-container": "links-container"}`}>
             <ul className="links">
               {links.map((link) => {
                 const { id, url, text } = link;
