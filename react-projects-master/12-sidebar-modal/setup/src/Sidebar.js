@@ -7,7 +7,7 @@ const Sidebar = () => {
   return <aside className={`sidebar show-sidebar`}>
     <div className='sidebar-header'>
       <img src={logo} className='logo' alt='coding addict' />
-      <button className='' ></button>
+      <button className='close-btn' ></button>
     </div>
   </aside>
 }
