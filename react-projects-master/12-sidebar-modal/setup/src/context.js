@@ -8,7 +8,7 @@ const AppProvider = ({ children }) => {
 
 //custom hook
 
-export const useGlobal = ()=> {
+export const useGlobalContext = ()=> {
     return useContext(AppContext)
 }
 
