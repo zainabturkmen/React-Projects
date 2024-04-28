@@ -11,8 +11,9 @@ const AppProvider = ({ children }) => {
     }
 
     const closeSidebar = () => {
-        
+        setIsSidebarOpen(false)
     }
+
     return <AppContext.Provider value="hello">{children}</AppContext.Provider>;
 };
 
