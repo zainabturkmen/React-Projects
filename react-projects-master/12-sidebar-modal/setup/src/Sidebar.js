@@ -13,7 +13,10 @@ const Sidebar = () => {
     </div>
     <ul className='links'>
       {links.map((link)=> {
-        
+        const {id, url, text, icon} = link
+        return(
+          
+        )
       })}
     </ul>
   </aside>
