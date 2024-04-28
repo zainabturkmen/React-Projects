@@ -24,7 +24,7 @@ const Sidebar = () => {
           );
         })}
       </ul>
-      <ul className=""></ul>
+      <ul className="social-icon"></ul>
     </aside>
   );
 };
