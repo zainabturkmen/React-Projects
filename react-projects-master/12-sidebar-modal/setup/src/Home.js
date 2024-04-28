@@ -4,7 +4,6 @@ import { AppContext, useGlobalContext } from "./context";
 
 const Home = () => {
   const { openModal, openSidebar } = useGlobalContext();
-  console.log(data);
   return (
     <main>
       <button className="sidebar-toggle" onClick={openSidebar}>
