@@ -7,9 +7,12 @@ const AppProvider = ({ children }) => {
     const [isModalOpen, setIsModalOpen] = useState(false);
 
     const openSidebar = () => {
-        
+        setIsSidebarOpen(true)
     }
 
+    const closeSidebar = () => {
+        
+    }
     return <AppContext.Provider value="hello">{children}</AppContext.Provider>;
 };
 
