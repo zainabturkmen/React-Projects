@@ -3,7 +3,7 @@ import { FaBars } from "react-icons/fa";
 import { AppContext, useGlobalContext } from "./context";
 
 const Home = () => {
-  const data = useGlobalContext;
+  const data = useGlobalContext();
   console.log(data);
   return (
     <main>
