@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { FaBars } from "react-icons/fa";
+import {}
 
 const Home = () => {
   return (
