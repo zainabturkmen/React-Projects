@@ -7,10 +7,10 @@ const Home = () => {
   console.log(data);
   return (
     <main>
-      <button className="sidebar-toggle">
+      <button className="sidebar-toggle" onClick={openSidebar}>
         <FaBars />
       </button>
-      <button className="btn">SHOW Modal</button>
+      <button className="btn" onClick={openModal}>SHOW Modal</button>
     </main>
   );
 };
