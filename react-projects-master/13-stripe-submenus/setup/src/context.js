@@ -13,7 +13,7 @@ export const AppProvider = ({ children }) => {
   const closeSidebar = () => {
     setIsSidebarOpen(false);
   };
-  const openSubmenu = () => {
+  const openSubmenu = (text, coordinates) => {
     setIsSubmenuOpen(true);
   };
   const closeSubmenu = () => {
