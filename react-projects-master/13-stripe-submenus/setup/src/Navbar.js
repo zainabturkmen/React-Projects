@@ -8,9 +8,9 @@ const Navbar = () => {
 
 
   const displaySubmenu = (e) => {
-
+    openSubmenu()
   } 
-  
+
   return (
     <nav className="nav">
       <div className="nav-center">
