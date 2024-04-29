@@ -16,7 +16,7 @@ const Submenu = () => {
        <div className={`submenu-center col-2`}>
         {links.map((link, index)=> {
           const {label, url, icon } = link
-          return <a key={index} href={url}></a>
+          return <a key={index} href={url}>{icon}{label}</a>
         })}
        </div>
     </aside>
