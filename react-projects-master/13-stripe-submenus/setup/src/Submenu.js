@@ -6,7 +6,7 @@ const Submenu = () => {
 
   useEffect(()=> {
 
-  },)
+  },[location])
   return (
     <aside  className={`${isSubmenuOpen? "submenu show": "submenu"}`}>
 
