@@ -9,19 +9,21 @@ const Submenu = () => {
   } = useGlobalContext();
 
   const continer = useRef(null);
-  const [columns, setColunms] = useState("col-2")
+  const [columns, setColunms] = useState("col-2");
   useEffect(() => {
-    setColunms("col-2")
+    setColunms("col-2");
     const submenu = continer.current;
     const { center, bottom } = location;
     submenu.style.left = `${center}px`;
     submenu.style.top = `${bottom}px`;
 
     if (links.length === 3) {
-      
+      setColunms("col-3");
     }
 
-
+    if (links.length > 3) {
+      setColunms("col-4");
+    }
   }, [location]);
 
   return (
