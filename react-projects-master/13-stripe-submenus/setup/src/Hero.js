@@ -4,7 +4,10 @@ import {useGlobalContext} from "./context"
 
 const Hero = () => {
   const { closeSubmenu } = useGlobalContext();
-  return <h2>hero component</h2>
+
+  return <section className='hero'>
+    
+  </section>
 }
 
 export default Hero
