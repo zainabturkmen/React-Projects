@@ -10,7 +10,12 @@ const Sidebar = () => {
       className={`${
         isSidebarOpen ? "sidebar-wrapper show" : "sidebar-wrapper "
       }`}
-    ></aside>
+    >
+
+      <div className='sidebar'></div>
+
+    </aside>
+
   );
 }
 
