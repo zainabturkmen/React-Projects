@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react'
 import { useGlobalContext } from './context'
 
 const Submenu = () => {
-  const { isSubmenuOpen, location, page } = useGlobalContext();
+  const { isSubmenuOpen, location, page: } = useGlobalContext();
   const continer = useRef(null)
   useEffect(()=> {
     const submenu = continer.current;
