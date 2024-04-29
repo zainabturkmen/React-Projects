@@ -7,7 +7,9 @@ const Submenu = () => {
     location,
     page: { page, links },
   } = useGlobalContext();
+
   const continer = useRef(null);
+  const []
   useEffect(() => {
     const submenu = continer.current;
     const { center, bottom } = location;
