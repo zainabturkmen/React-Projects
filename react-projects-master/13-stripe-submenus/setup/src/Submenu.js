@@ -9,7 +9,7 @@ const Submenu = () => {
   } = useGlobalContext();
 
   const continer = useRef(null);
-  const [columns, setColunms] = useState()
+  const [columns, setColunms] = useState("col-2")
   useEffect(() => {
     const submenu = continer.current;
     const { center, bottom } = location;
@@ -22,7 +22,7 @@ const Submenu = () => {
       ref={continer}
     >
       <h4>{page}</h4>
-      <div className={`submenu-center col-2`}>
+      <div className={`submenu-center ${columns}`}>
         {links.map((link, index) => {
           const { label, url, icon } = link;
           return (
