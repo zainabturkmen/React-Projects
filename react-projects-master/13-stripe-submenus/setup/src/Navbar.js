@@ -8,6 +8,7 @@ const Navbar = () => {
 
 
   const displaySubmenu = (e) => {
+    const page = e.target.textContent
     openSubmenu()
   } 
 
