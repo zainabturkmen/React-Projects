@@ -18,6 +18,7 @@ const Hero = () => {
             Stripe’s software and APIs to accept payments, send payouts, and
             manage their businesses online.
           </p>
+          <button className='btn'> start now</button>
         </article>
         <article className="hero-images">
           <img src={phoneImg} className="phone-img" alt="phone" />
