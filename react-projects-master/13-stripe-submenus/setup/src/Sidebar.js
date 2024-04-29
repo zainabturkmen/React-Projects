@@ -13,7 +13,7 @@ const Sidebar = () => {
     >
 
       <div className='sidebar'>
-        <button className='close-btn'></button>
+        <button className='close-btn' onClick={closeSidebar}></button>
       </div>
       
     </aside>
