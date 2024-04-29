@@ -9,7 +9,7 @@ const Submenu = () => {
   } = useGlobalContext();
 
   const continer = useRef(null);
-  const []
+  const [columns, setColunms] = useState()
   useEffect(() => {
     const submenu = continer.current;
     const { center, bottom } = location;
