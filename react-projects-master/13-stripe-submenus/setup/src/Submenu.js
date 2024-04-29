@@ -1,26 +1,38 @@
-import React, { useState, useRef, useEffect } from 'react'
-import { useGlobalContext } from './context'
+import React, { useState, useRef, useEffect } from "react";
+import { useGlobalContext } from "./context";
 
 const Submenu = () => {
-  const { isSubmenuOpen, location, page: {page, links} } = useGlobalContext();
-  const continer = useRef(null)
-  useEffect(()=> {
+  const {
+    isSubmenuOpen,
+    location,
+    page: { page, links },
+  } = useGlobalContext();
+  const continer = useRef(null);
+  useEffect(() => {
     const submenu = continer.current;
-    const {center, bottom} = location;
-    submenu.style.left = `${center}px`
-    submenu.style.top = `${bottom}px`
-  },[location])
+    const { center, bottom } = location;
+    submenu.style.left = `${center}px`;
+    submenu.style.top = `${bottom}px`;
+  }, [location]);
   return (
-    <aside  className={`${isSubmenuOpen? "submenu show": "submenu"}`} ref={continer}>
-       <h4>{page}</h4>
-       <div className={`submenu-center col-2`}>
-        {links.map((link, index)=> {
-          const {label, url, icon } = link
-          return <a key={index} href={url}>{icon}{label}</a>
+    <aside
+      className={`${isSubmenuOpen ? "submenu show" : "submenu"}`}
+      ref={continer}
+    >
+      <h4>{page}</h4>
+      <div className={`submenu-center col-2`}>
+        {links.map((link, index) => {
+          const { label, url, icon } = link;
+          return (
+            <a key={index} href={url}>
+              {icon}
+              {label}
+            </a>
+          );
         })}
-       </div>
+      </div>
     </aside>
-  )
-}
+  );
+};
 
-export default Submenu
+export default Submenu;
