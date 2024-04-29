@@ -12,8 +12,10 @@ const Sidebar = () => {
       }`}
     >
 
-      <div className='sidebar'></div>
-
+      <div className='sidebar'>
+        <button className=''></button>
+      </div>
+      
     </aside>
 
   );
