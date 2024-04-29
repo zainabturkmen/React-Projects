@@ -9,7 +9,7 @@ const Hero = () => {
     <div className='hero-center'>
       <article></article>
       <article className='hero-images'>
-        
+        <img src={phoneImg} alt='phone image' />
       </article>
     </div>
   </section>
