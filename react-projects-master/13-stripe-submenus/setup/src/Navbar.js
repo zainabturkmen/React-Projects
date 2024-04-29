@@ -5,6 +5,8 @@ import { useGlobalContext } from "./context";
 
 const Navbar = () => {
   const { openSidebar, openSubmenu, closeSubmenu } = useGlobalContext();
+
+  const 
   return (
     <nav className="nav">
       <div className="nav-center">
