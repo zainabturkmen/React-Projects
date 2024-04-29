@@ -13,7 +13,11 @@ const Submenu = () => {
   return (
     <aside  className={`${isSubmenuOpen? "submenu show": "submenu"}`} ref={continer}>
        <h4>{page}</h4>
-       <div className={`submenu-center col-2`}></div>
+       <div className={`submenu-center col-2`}>
+        {links.map((link)=> {
+          const {url, }
+        })}
+       </div>
     </aside>
   )
 }
