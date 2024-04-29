@@ -8,8 +8,9 @@ const Navbar = () => {
 
 
   const displaySubmenu = (e) => {
-    
+
   } 
+  
   return (
     <nav className="nav">
       <div className="nav-center">
