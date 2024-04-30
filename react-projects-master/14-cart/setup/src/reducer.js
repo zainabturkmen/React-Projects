@@ -11,13 +11,27 @@ const reducer = (state, action) => {
 
   if (action.type === "INCREASE") {
     let tempCart = state.cart.map((cartItems)=> {
-        if (cartItems.id ===payload) {
+        if (cartItems.id === action.payload) {
             return {
                 ...cartItems, 
+                amount: cartItems.amount + 1
             }
         }
         return cartItems;
 
+    });
+    return { ...state, cart: tempCart };
+  }
+  
+  if (action.type === "DECREASE") {
+    let tempCart = state.cart.map((cartItems) => {
+      if (cartItems.id === action.payload) {
+        return {
+          ...cartItems,
+          amount: cartItems.amount + 1,
+        };
+      }
+      return cartItems;
     });
     return { ...state, cart: tempCart };
   }
