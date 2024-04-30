@@ -37,11 +37,12 @@ const reducer = (state, action) => {
   }
 
   if (action.type === "GET_TATALS") {
+    const {total, amount} = state.cart
     return{
         ...state,
         total,
         amount, 
-        
+
     }
   }
   return state;
