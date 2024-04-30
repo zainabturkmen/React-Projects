@@ -73,6 +73,9 @@ const reducer = (state, action) => {
 
   if (action.type === "TOGGLE_AMOUNT") {
     let tempCart = [];
+    return {
+        ...state
+    }
   }
   return state;
 };
