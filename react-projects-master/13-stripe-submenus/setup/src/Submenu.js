@@ -8,11 +8,11 @@ const Submenu = () => {
     page: { page, links },
   } = useGlobalContext();
 
-  const continer = useRef(null);
+  const container = useRef(null);
   const [columns, setColunms] = useState("col-2");
   useEffect(() => {
     setColunms("col-2");
-    const submenu = continer.current;
+    const submenu = container.current;
     const { center, bottom } = location;
     submenu.style.left = `${center}px`;
     submenu.style.top = `${bottom}px`;
@@ -29,7 +29,7 @@ const Submenu = () => {
   return (
     <aside
       className={`${isSubmenuOpen ? "submenu show" : "submenu"}`}
-      ref={continer}
+      ref={container}
     >
       <h4>{page}</h4>
       <div className={`submenu-center ${columns}`}>
