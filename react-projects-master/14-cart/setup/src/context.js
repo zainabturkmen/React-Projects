@@ -10,8 +10,9 @@ const AppProvider = ({ children }) => {
   const [state, dispatch] = useReducer()
 
   const initailState = {
-    
+
   }
+  
   return (
     <AppContext.Provider
       value={{
