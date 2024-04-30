@@ -5,7 +5,7 @@ const Submenu = () => {
   const {
     isSubmenuOpen,
     location,
-    page: { page, links },
+    page: { page, links }
   } = useGlobalContext();
 
   const container = useRef(null);

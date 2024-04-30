@@ -17,7 +17,7 @@ const Navbar = () => {
   } 
 
   const handleSubmenu = (e) => {
-    if (!e.target.classList.contains("link.btn")) {
+    if (!e.target.classList.contains("link-btn")) {
       closeSubmenu()
     }
   };
