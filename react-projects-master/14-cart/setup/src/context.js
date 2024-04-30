@@ -35,8 +35,8 @@ const AppProvider = ({ children }) => {
   }
 
   useEffect(() => {
-    
-  })
+    dispatch({type: "GET_TATALS"})
+  },[state.cart])
 
   return (
     <AppContext.Provider
