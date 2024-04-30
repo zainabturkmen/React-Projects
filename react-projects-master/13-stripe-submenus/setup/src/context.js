@@ -22,7 +22,7 @@ export const AppProvider = ({ children }) => {
     setIsSubmenuOpen(true);
   };
   const closeSubmenu = () => {
-    isSubmenuOpen(false);
+    setIsSubmenuOpen(false);
   };
 
   return (
