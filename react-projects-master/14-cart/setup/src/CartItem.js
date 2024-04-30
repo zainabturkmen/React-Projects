@@ -5,8 +5,6 @@ const CartItem = ({ id, img, title, price, amount }) => {
   const { remove, increase , decrease} = useGlobalContext();
 
 
-  const { decrease } = useGlobalContext();
-
   return (
     <article className="cart-item">
       <img src={img} alt={title} />
