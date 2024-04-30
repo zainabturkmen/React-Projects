@@ -28,7 +28,7 @@ const reducer = (state, action) => {
       if (cartItems.id === action.payload) {
         return {
           ...cartItems,
-          amount: cartItems.amount + 1,
+          amount: cartItems.amount - 1,
         };
       }
       return cartItems;
