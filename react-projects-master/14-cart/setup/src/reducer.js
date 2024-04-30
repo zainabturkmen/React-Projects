@@ -35,6 +35,9 @@ const reducer = (state, action) => {
     }).filter((cartItems) => cartItems.amount !== 0)
     return { ...state, cart: tempCart };
   }
+
+  if (action.type === "GET_TATALS") {
+  }
   return state;
 };
 
