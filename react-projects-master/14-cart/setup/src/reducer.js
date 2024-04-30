@@ -2,7 +2,7 @@ const reducer = (state, action) => {
   if (action.type === "CLEAR_CART") {
     return { ...state, cart: [] };
   }
-  if (action.type === "REMOVe") {
+  if (action.type === "REMOVE") {
     return {
       ...state,
       cart: state.cart.filter((cartItems) => cartItems.id !== action.payload),

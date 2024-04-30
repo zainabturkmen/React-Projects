@@ -22,7 +22,7 @@ const AppProvider = ({ children }) => {
 
 
   const remove = (id) => {
-    dispatch({ type: "REMOVe", payload: id });
+    dispatch({ type: "REMOVE", payload: id });
   }
 
 
