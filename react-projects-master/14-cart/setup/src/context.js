@@ -30,6 +30,7 @@ const AppProvider = ({ children }) => {
       value={{
         ...state,
         clearCart,
+        remove,
       }}
     >
       {children}
