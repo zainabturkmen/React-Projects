@@ -35,7 +35,7 @@ const AppProvider = ({ children }) => {
   }
 
   const fetchData = () => {
-    
+    dispatch({type: ""})
   }
 
   useEffect(() => {
