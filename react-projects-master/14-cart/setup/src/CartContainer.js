@@ -5,7 +5,7 @@ import { useGlobalContext } from './context'
 const CartContainer = () => {
   const { cart, total, clearCart } = useGlobalContext();
 
-  
+  const { remove } = useGlobalContext();
 
   if (cart.length === 0) {
     return (
