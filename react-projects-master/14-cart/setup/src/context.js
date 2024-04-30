@@ -34,6 +34,9 @@ const AppProvider = ({ children }) => {
     dispatch({type: "DECREASE", payload: id})
   }
 
+  useEffect(() => {
+    
+  })
 
   return (
     <AppContext.Provider
