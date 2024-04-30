@@ -12,6 +12,9 @@ const reducer = (state, action) => {
   if (action.type === "INCREASE") {
     let tempCart = state.cart.map((cartItems)=> {
         if (cartItems.id ===payload) {
+            return {
+                
+            }
         }
         return cartItems;
 
