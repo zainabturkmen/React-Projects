@@ -49,7 +49,7 @@ const reducer = (state, action) => {
       amount: 0,
     });
 
-    total = parseFloat(total.toFixed())
+    total = parseFloat(total.toFixed(2))
 
     return {
       ...state,
