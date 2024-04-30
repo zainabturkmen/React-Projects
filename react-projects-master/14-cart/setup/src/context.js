@@ -20,6 +20,12 @@ const AppProvider = ({ children }) => {
     dispatch({type: "CLEAR_CART"})
   };
 
+
+  const remove = (id) => {
+
+  }
+
+
   return (
     <AppContext.Provider
       value={{
