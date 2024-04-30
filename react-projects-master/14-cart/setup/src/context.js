@@ -11,7 +11,9 @@ const AppProvider = ({ children }) => {
 
   const initailState = {
     loading: false,
-    cart:[]
+    cart:[],
+    total: 0,
+    amount: 0
   }
 
   return (
