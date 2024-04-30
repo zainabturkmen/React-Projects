@@ -37,6 +37,12 @@ const reducer = (state, action) => {
   }
 
   if (action.type === "GET_TATALS") {
+    return{
+        ...state,
+        total,
+        amount, 
+        
+    }
   }
   return state;
 };
