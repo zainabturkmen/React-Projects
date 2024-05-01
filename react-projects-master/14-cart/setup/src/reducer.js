@@ -90,7 +90,7 @@ const reducer = (state, action) => {
         cart: tempCart
     }
   }
- throw new Error("no matches action types")
+ throw new Error("no matches action types");
 };
 
 export default reducer;
