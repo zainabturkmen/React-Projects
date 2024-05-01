@@ -87,7 +87,7 @@ const reducer = (state, action) => {
       .filter((cartItems) => cartItems.amount !== 0);
     return {
         ...state,
-        cart: tempCart
+        cart: tempCart,
     }
   }
  throw new Error("no matches action types");
