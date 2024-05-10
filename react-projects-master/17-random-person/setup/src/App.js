@@ -17,7 +17,7 @@ function App() {
   const [value, setValue] = useState("random-person");
 
   const handleValue = (e) => {
-    console.log(e.target);
+    console.log(e.target);  
   };
 
   return (
