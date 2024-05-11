@@ -23,6 +23,7 @@ function App() {
   return (
     <main>
       <div className="block bcg-black"></div>
+      <div className="block"></div>
     </main>
   );
 }
