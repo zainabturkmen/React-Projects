@@ -16,7 +16,16 @@ function App() {
   const [person, setPerson] = useState(null)
   const [title, setTitle] = useState("name")
   const [value, setValue] = useState("random-person")
-  return <h2>random user starter</h2>
+
+  const handleValue = (e) => {
+    console.log(e.target);
+  }
+
+  return (
+    <main>
+      
+    </main>
+  )
 }
 
 export default App
