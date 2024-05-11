@@ -14,6 +14,7 @@ function App() {
 
   const [loading, setLoading] = useState(true);
   const [person, setPerson] = useState(null)
+  const [title, setTitle] = useState("name")
   return <h2>random user starter</h2>
 }
 
