@@ -4,7 +4,7 @@ const paginate = (followers) => {
     console.log(page);
 
     const newFallowers = Array.from({length:pages}, (_,index)=> {
-        const start = index * itemPerPage
+        const start = index * itemPerPage;
     });
 }
 
