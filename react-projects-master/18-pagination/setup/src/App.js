@@ -4,7 +4,8 @@ import Follower from "./Follower";
 
 function App() {
   const { loading, data } = useFetch();
-  const [page, setPage] = useState(0)
+  const [page, setPage] = useState(0);
+  const [followers, setFollowers]
 
   return <main className="section-title">
     <h1>{loading? "loading...":"pagination"}</h1>
