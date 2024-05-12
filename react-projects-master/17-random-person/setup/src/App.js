@@ -22,6 +22,7 @@ function App() {
     const person = data.results[0];
     const {phone, email} = person;
     const {large:image} = person.picture
+    const {login:{password}} = person
   };
 
   useEffect(()=> {
