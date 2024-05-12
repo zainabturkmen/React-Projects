@@ -53,7 +53,7 @@ function App() {
   }, []);
 
   const handleValue = (e) => {
-    console.log(e.target);
+    console.log(e.target.contains());
   };
 
   return (
