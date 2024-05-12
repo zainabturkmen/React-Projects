@@ -49,7 +49,7 @@ function App() {
             </button>
           </div>
           <button className="btn" type="button">
-            {loading ? "loading..."}
+            {loading ? "loading...": "random-user"}
           </button>
         </div>
       </div>
