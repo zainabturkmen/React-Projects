@@ -8,6 +8,13 @@ function App() {
   return <main className="section-title">
     <h1>{loading? "loading...":"pagination"}</h1>
     <div className="underline"></div>
+    <section className="followers">
+      <div className="container">
+        {data.map(()=> {
+          
+        })}
+      </div>
+    </section>
   </main>;
 }
 
