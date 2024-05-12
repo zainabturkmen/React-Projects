@@ -38,8 +38,8 @@ function App() {
             <button className="icon" data-label="age" onMouseOver={handleValue}>
               <FaCalendarTimes />
             </button>
-            <button className="icon" data-label="name" onMouseOver={handleValue}>
-              <FaUser />
+            <button className="icon" data-label="street" onMouseOver={handleValue}>
+              <FaMap />
             </button>
             <button className="icon" data-label="name" onMouseOver={handleValue}>
               <FaUser />
