@@ -48,7 +48,9 @@ function App() {
               <FaLock />
             </button>
           </div>
-          
+          <button className="btn" type="button">
+            {loading ? "loading..."}
+          </button>
         </div>
       </div>
     </main>
