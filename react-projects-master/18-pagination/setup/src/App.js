@@ -10,8 +10,9 @@ function App() {
 
 
   useEffect(()=> {
-    
-  },[])
+    if(loading) return
+    setFollowers(data[page])
+  },[loading])
 
   return <main className="section-title">
     <h1>{loading? "loading...":"pagination"}</h1>
