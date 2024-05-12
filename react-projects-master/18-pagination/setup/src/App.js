@@ -7,6 +7,7 @@ function App() {
 
   return <main className="section-title">
     <h1>{loading? "loading...":"pagination"}</h1>
+    <div className="underline"></div>
   </main>;
 }
 
