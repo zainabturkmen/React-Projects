@@ -28,6 +28,7 @@ function App() {
           <img src={(person && person.image) || defaultImage} alt="random user" className="user-img" />
           <p className="user-title">my {title} is</p>
           <p className="user-value">{value}</p>
+          <div className="values-list"></div>
         </div>
       </div>
     </main>
