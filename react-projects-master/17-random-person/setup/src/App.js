@@ -21,8 +21,8 @@ function App() {
   };
 
   useEffect(()=> {
-    
-  })
+
+  }, [])
 
   const handleValue = (e) => {
     console.log(e.target);
