@@ -17,7 +17,8 @@ function App() {
   const [value, setValue] = useState("random-person");
 
   const getPerson = async () => {
-
+    const response = await fetch(url)
+    const data = await response.json();
   };
 
   useEffect(()=> {
