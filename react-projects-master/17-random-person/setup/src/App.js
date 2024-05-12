@@ -34,8 +34,16 @@ function App() {
     } = person.location;
 
     const newPerson = {
-      image,phone, email, password, age,
-    }
+      image,
+      phone,
+      email,
+      password,
+      age,
+      street: `${number} ${street}`,
+      name: `${first} ${last}`
+    };
+    setPerson(newPerson)
+    setLoading(false)
   };
 
   useEffect(() => {
