@@ -10,8 +10,8 @@ function App() {
     <div className="underline"></div>
     <section className="followers">
       <div className="container">
-        {data.map(()=> {
-          
+        {data.map((follower)=> {
+          return <Follower  key={follower.id} {...follower} />
         })}
       </div>
     </section>
