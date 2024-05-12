@@ -34,7 +34,7 @@ function App() {
     } = person.location;
 
     const newPerson = {
-      
+      image,phone, email, password, age,
     }
   };
 
