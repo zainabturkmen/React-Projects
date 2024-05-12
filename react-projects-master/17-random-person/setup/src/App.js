@@ -39,11 +39,12 @@ function App() {
       email,
       password,
       age,
-      street: `${number} ${street}`,
+      street: `${number} ${name}`,
       name: `${first} ${last}`
     };
     setPerson(newPerson)
     setLoading(false)
+    setTitle(name)
   };
 
   useEffect(() => {
