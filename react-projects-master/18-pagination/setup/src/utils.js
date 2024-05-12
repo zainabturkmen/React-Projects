@@ -3,10 +3,12 @@ const paginate = (followers) => {
     const pages = Math.ceil(followers.length / itemPerPage)
     console.log(page);
 
-    const newFallowers = Array.from({length:pages}, (_,index)=> {
+    const newFollowers = Array.from({length:pages}, (_,index)=> {
         const start = index * itemPerPage;
         return followers.slice(start, start+itemPerPage)
     });
+
+    newFollowers
 }
 
 export default paginate
