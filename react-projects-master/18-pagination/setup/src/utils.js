@@ -5,6 +5,7 @@ const paginate = (followers) => {
 
     const newFallowers = Array.from({length:pages}, (_,index)=> {
         const start = index * itemPerPage;
+        return followers.slice(start)
     });
 }
 
