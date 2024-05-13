@@ -9,8 +9,9 @@ function App() {
 
 
   useEffect(()=> {
-      if()
-  },[])
+      if(loading) return
+      setFollowers(data[pages])
+  },[loading])
 
   return (
     <main>
