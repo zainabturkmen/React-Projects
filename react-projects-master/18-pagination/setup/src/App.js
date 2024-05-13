@@ -7,10 +7,10 @@ function App() {
   const [pages, setPage] = useState(0);
   const [followers, setFollowers] = useState([]);
 
-  useEffect(() => {
-    if (loading) return;
-    setFollowers(data[pages]);
-  }, [loading]);
+
+  useEffect(()=> {
+    
+  },[])
 
   return (
     <main>
