@@ -7,15 +7,14 @@ function App() {
   const [pages, setPage] = useState(0);
   const [followers, setFollowers] = useState([]);
 
-
-  useEffect(()=> {
-      if(loading) return
-      setFollowers(data[pages])
-  },[loading])
+  useEffect(() => {
+    if (loading) return;
+    setFollowers(data[pages]);
+  }, [loading, pages]);
 
   const handlePage = (index) => {
-    setPage(index)
-  }
+    setPage(index);
+  };
 
   return (
     <main>
@@ -29,13 +28,24 @@ function App() {
             return <Follower key={follower.id} {...follower} />;
           })}
         </div>
-        {!loading && <div className="btn-container">
-            {data.map((item, index)=> {
-              return <button key={index} className="page-btn" onClick={() => handlePage(index)}>
-                {index + 1}
-              </button>
+        {!loading && (
+          <div className="btn-container">
+            <button className="btn-container" onClick={prevPage}>
+              prev
+            </button>
+            {data.map((item, index) => {
+              return (
+                <button
+                  className= {`page-btn ${index === pages? "active-btn": null}`}
+                  key={index}
+                  onClick={() => handlePage(index)}
+                >
+                  {index + 1}
+                </button>
+              );
             })}
-          </div>}
+          </div>
+        )}
       </section>
     </main>
   );
