@@ -16,6 +16,11 @@ function App() {
     setPage(index);
   };
 
+  const nextPage = ()=> {
+    
+  }
+
+
   return (
     <main>
       <div className="section-title">
@@ -30,13 +35,15 @@ function App() {
         </div>
         {!loading && (
           <div className="btn-container">
-            <button className="btn-container" onClick={prevPage}>
+            <button className="prev-btn" onClick={prevPage}>
               prev
             </button>
             {data.map((item, index) => {
               return (
                 <button
-                  className= {`page-btn ${index === pages? "active-btn": null}`}
+                  className={`page-btn ${
+                    index === pages ? "active-btn" : null
+                  }`}
                   key={index}
                   onClick={() => handlePage(index)}
                 >
@@ -44,6 +51,9 @@ function App() {
                 </button>
               );
             })}
+            <button className="next-btn" onClick={nextPage}>
+              next
+            </button>
           </div>
         )}
       </section>
