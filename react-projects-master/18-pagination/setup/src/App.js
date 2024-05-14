@@ -26,6 +26,7 @@ function App() {
       return nextPage;
     });
   };
+  
 
   const prevPage = () => {
     setPage((oldPage) => {
