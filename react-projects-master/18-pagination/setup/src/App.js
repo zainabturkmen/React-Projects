@@ -19,6 +19,9 @@ function App() {
   const nextPage = ()=> {
     setPage((oldPage)=> {
       let nextPage = oldPage + 1;
+      if (nextPage > data.length) {
+        
+      }
     })
   }
 
