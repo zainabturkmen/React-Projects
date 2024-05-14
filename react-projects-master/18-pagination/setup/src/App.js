@@ -28,7 +28,7 @@ function App() {
         {!loading && <div className="btn-container">
             {data.map((item, index)=> {
               return <button key={index} className="page-btn">
-                button
+                {index}
               </button>
             })}
           </div>}
