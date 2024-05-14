@@ -27,6 +27,17 @@ function App() {
     });
   };
 
+  const prevPage = () => {
+    setPage((oldPage) => {
+      let prevPage = oldPage - 1;
+      if (nextPage > data.length - 1) {
+        prevPage = 0;
+      }
+
+      return nextPage;
+    });
+  };
+
   return (
     <main>
       <div className="section-title">
