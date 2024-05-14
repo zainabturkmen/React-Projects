@@ -13,8 +13,8 @@ function App() {
       setFollowers(data[pages])
   },[loading])
 
-  const handlePage = () => {
-    
+  const handlePage = (index) => {
+    setPage(index)
   }
 
   return (
