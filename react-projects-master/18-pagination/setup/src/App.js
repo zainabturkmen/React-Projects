@@ -13,6 +13,10 @@ function App() {
       setFollowers(data[pages])
   },[loading])
 
+  const handlePage = () => {
+    
+  }
+
   return (
     <main>
       <div className="section-title">
