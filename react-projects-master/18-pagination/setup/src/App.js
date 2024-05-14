@@ -31,7 +31,7 @@ function App() {
         </div>
         {!loading && <div className="btn-container">
             {data.map((item, index)=> {
-              return <button key={index} className="page-btn">
+              return <button key={index} className="page-btn" onClick={() => handlePage(index)}>
                 {index + 1}
               </button>
             })}
