@@ -17,7 +17,9 @@ function App() {
   };
 
   const nextPage = ()=> {
-    
+    setPage(()=> {
+      
+    })
   }
 
 
