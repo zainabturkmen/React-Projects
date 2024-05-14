@@ -30,7 +30,7 @@ function App() {
   const prevPage = () => {
     setPage((oldPage) => {
       let prevPage = oldPage - 1;
-      if (nextPage > data.length - 1) {
+      if (prevPage > data.length - 1) {
         prevPage = 0;
       }
 
