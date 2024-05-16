@@ -17,8 +17,8 @@ Global Styles
 }
 
 .light-theme{
-  --clr-bcg: #282c35;
-  --clr-font: #fff;
+  --clr-bcg: #fff;
+  --clr-font: #282c35;
   --clr-primary: #ffa7c4;
 }
 
