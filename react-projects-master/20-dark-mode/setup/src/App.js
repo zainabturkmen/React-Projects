@@ -4,6 +4,11 @@ import Article from "./Article";
 
 function App() {
   const [theme, setTheme] = useState("light-theme");
+
+  useEffect(() => {
+    
+  },[])
+
   return (
     <main>
       <nav>
