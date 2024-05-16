@@ -3,7 +3,7 @@ import data from "./data";
 import Article from "./Article";
 
 function App() {
-  const [theme, setTheme]
+  const [theme, setTheme] = useState()
   return (
     <main>
       <nav>
