@@ -3,7 +3,7 @@ import data from "./data";
 import Article from "./Article";
 
 function App() {
-  const [theme, setTheme] = useState("dark-theme");
+  const [theme, setTheme] = useState("light-theme");
 
   useEffect(() => {
     document.documentElement.className = theme
