@@ -10,6 +10,18 @@ Global Styles
   --clr-primary: #d23669;
 }
 
+.dark-theme{
+  --clr-bcg: #282c35;
+  --clr-font: #fff;
+  --clr-primary: #ffa7c4;
+}
+
+.light-theme{
+  --clr-bcg: #282c35;
+  --clr-font: #fff;
+  --clr-primary: #ffa7c4;
+}
+
 *,
 ::after,
 ::before {
