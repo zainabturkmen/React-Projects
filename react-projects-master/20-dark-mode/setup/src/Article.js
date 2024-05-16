@@ -1,6 +1,6 @@
 import React from 'react'
 import moment from 'moment'
-const Article = ({title, snippet}) => {
+const Article = ({title, snippet, date, }) => {
   return 
 }
 
