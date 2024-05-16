@@ -6,7 +6,7 @@ function App() {
   const [theme, setTheme] = useState("light-theme");
 
   useEffect(() => {
-
+    document.documentElement
   },[theme])
 
   return (
