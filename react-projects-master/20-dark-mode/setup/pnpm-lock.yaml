@@ -15,7 +15,7 @@ dependencies:
     specifier: ^13.5.0
     version: 13.5.0(@testing-library/dom@10.1.0)
   moment:
-    specifier: ^2.29.1
+    specifier: ^2.30.1
     version: 2.30.1
   react:
     specifier: ^18.2.0
