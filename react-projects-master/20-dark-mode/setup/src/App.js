@@ -5,6 +5,10 @@ import Article from "./Article";
 function App() {
   const [theme, setTheme] = useState("light-theme");
 
+  const toggleTheme = () => {
+    
+  }
+
   useEffect(() => {
     document.documentElement.className = theme
   },[theme])
@@ -14,7 +18,9 @@ function App() {
       <nav>
         <div className="nav-center">
           <h1>overreacted</h1>
-          <button className="btn">toggle</button>
+          <button className="btn" onChange={() => setTheme(!theme)}>
+            toggle
+          </button>
         </div>
       </nav>
       <section className="articles">
