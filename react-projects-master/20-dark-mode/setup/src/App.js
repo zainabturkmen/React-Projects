@@ -6,7 +6,11 @@ function App() {
   const [theme, setTheme] = useState("light-theme");
 
   const toggleTheme = () => {
-
+    if (theme === "light-theme") {
+      setTheme("dark-theme")
+    }else{
+      setTheme("light-theme")
+    }
   }
 
   useEffect(() => {
@@ -18,7 +22,7 @@ function App() {
       <nav>
         <div className="nav-center">
           <h1>overreacted</h1>
-          <button className="btn" onClick={() => setTheme(!theme)}>
+          <button className="btn" onClick={toggleTheme}>
             toggle
           </button>
         </div>
