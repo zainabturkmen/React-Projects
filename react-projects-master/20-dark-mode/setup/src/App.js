@@ -12,7 +12,7 @@ function App() {
     </nav>
     <section className="articles">
       {data.map((item) => {
-        return
+        return <Article key={id} />
       })}
     </section>
   </main>
