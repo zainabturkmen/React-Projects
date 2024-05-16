@@ -4,7 +4,8 @@ import Article from "./Article";
 
 
 const getStorageTheme = () => {
-  let theme = "light-theme"
+  let theme = "light-theme";
+  if(localStorage.getItem(""))
 }
 
 function App() {
