@@ -22,6 +22,10 @@ const AppProvider = ({ children }) => {
     dispatch({type:"SET_LOADING"})
   }
 
+  useEffect(() => {
+    
+  }, [])
+
 
 
   return <AppContext.Provider value='hello'>{children}</AppContext.Provider>
