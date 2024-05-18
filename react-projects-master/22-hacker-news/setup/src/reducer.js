@@ -4,13 +4,12 @@ import {
   REMOVE_STORY,
   HANDLE_PAGE,
   HANDLE_SEARCH,
-} from './actions'
+} from "./actions";
 
 const reducer = (state, action) => {
-
-  switch(action.type){
+  switch (action.type) {
     case "SET_LOADING":
-      return {...state}
+      return { ...state, isLoading: true };
   }
-}
-export default reducer
+};
+export default reducer;
