@@ -11,7 +11,7 @@ const reducer = (state, action) => {
     case SET_LOADING:
       return { ...state, isLoading: true };
     case SET_STORIES:
-      return { ...state, SET_STORIES };
+      return { ...state, isLoading: false };
 
     default:
       throw new Error(`no matching"${action.type}" action type`);
