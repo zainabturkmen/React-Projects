@@ -31,7 +31,7 @@ const AppProvider = ({ children }) => {
     try {
       const response = await fetch(url);
       const data = await response.json();
-      dispatch({ type: SET_STORIES, payload:{}});
+      dispatch({ type: SET_STORIES, payload:{hits:data.hits, nbPages}});
     } catch (error) {}
   };
 
