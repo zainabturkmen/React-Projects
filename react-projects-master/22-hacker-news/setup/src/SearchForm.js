@@ -3,7 +3,9 @@ import { useGlobalContext } from './context'
 
 const SearchForm = () => {
   const {query, handleSearch} = useGlobalContext()
-  return <h2>search form</h2>
+  return <form className="search-form">
+    <h2>search hacker news</h2>
+  </form>
 }
 
 export default SearchForm
