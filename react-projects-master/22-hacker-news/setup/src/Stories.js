@@ -20,7 +20,7 @@ const Stories = () => {
               comments
             </p>
             <div>
-              <a href={url} className="read-link">
+              <a href={url} className="read-link" target="_blank">
                 read more
               </a>
               <button className="remove-btn">remove</button>
