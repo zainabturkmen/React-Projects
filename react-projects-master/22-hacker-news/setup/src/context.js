@@ -17,6 +17,10 @@ const AppContext = React.createContext()
 
 const AppProvider = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, initialState);
+
+
+
+  
   return <AppContext.Provider value='hello'>{children}</AppContext.Provider>
 }
 // make sure use
