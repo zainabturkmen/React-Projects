@@ -43,8 +43,8 @@ const AppProvider = ({ children }) => {
     dispatch({ type: REMOVE_STORY, payload: id});
   }
 
-  const handleSearch = (e) => {
-    e.preventDefault()
+  const handleSearch = (query) => {
+    dispatch({ type: HANDLE_SEARCH,  });
   }
  
 
