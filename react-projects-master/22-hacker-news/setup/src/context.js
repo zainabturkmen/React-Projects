@@ -40,7 +40,7 @@ const AppProvider = ({ children }) => {
 
 
   const removeStory = id => {
-    dispatch({ type: REMOVE_STORY, payload: });
+    dispatch({ type: REMOVE_STORY, payload: id});
   }
 
   useEffect(() => {
