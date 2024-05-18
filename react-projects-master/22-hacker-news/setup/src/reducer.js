@@ -8,6 +8,8 @@ import {
 
 const reducer = (state, action) => {
 
-  switch(action.type)
+  switch(action.type){
+    case "SET_LOADING":
+  }
 }
 export default reducer
