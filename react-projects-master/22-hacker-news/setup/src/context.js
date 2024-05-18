@@ -43,6 +43,11 @@ const AppProvider = ({ children }) => {
     dispatch({ type: REMOVE_STORY, payload: id});
   }
 
+  const handleSearch = (e) => {
+    e.preventDefault()
+  }
+ 
+
   useEffect(() => {
     fetchStories(`${API_ENDPOINT}query=${state.query}&page=${state.page}`);
   }, []);
