@@ -51,7 +51,7 @@ const AppProvider = ({ children }) => {
   }, []);
 
   return (
-    <AppContext.Provider value={{ ...state, removeStory }}>
+    <AppContext.Provider value={{ ...state, removeStory, handleSearch }}>
       {children}
     </AppContext.Provider>
   );
