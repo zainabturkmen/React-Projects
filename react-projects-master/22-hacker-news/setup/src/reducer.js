@@ -11,7 +11,7 @@ const reducer = (state, action) => {
     case "SET_LOADING":
       return { ...state, isLoading: true };
     default:
-      
+      throw new Error(`no matching"${action.type}"`)
   }
 };
 export default reducer;
