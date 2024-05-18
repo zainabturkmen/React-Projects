@@ -11,7 +11,7 @@ import reducer from './reducer'
 
 const API_ENDPOINT = 'https://hn.algolia.com/api/v1/search?'
 
-
+console.log(API_ENDPOINT);
 
 const initialState = {
   isLoading: true,
