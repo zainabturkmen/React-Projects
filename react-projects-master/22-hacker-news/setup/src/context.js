@@ -38,6 +38,11 @@ const AppProvider = ({ children }) => {
     } catch (error) {}
   };
 
+
+  const removeStory = id => {
+    console.log(id);
+  }
+
   useEffect(() => {
     fetchStories(`${API_ENDPOINT}query=${state.query}&page=${state.page}`);
   }, []);

@@ -16,11 +16,16 @@ const Stories = () => {
           <article className="story" key={objectID}>
             <h4 className="title">{title}</h4>
             <p className="info">
-              {points} points by <span>{author} |</span> {num_comments} {""}{" "}
+              {points} points by <span>{author} |</span> {num_comments} {""}
               comments
             </p>
             <div>
-              <a href={url} className="read-link" target="_blank">
+              <a
+                href={url}
+                className="read-link"
+                target="_blank"
+                rel="noopener"
+              >
                 read more
               </a>
               <button className="remove-btn">remove</button>
