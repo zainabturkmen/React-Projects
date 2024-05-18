@@ -28,7 +28,7 @@ const Stories = () => {
               >
                 read more
               </a>
-              <button className="remove-btn">remove</button>
+              <button className="remove-btn" onClick={}>remove</button>
             </div>
           </article>
         );
