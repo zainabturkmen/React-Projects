@@ -18,6 +18,7 @@ const Stories = () => {
             <p className="info">
               {points} points by <span>{author} |</span> {num_comments} {""} comments
             </p>
+            <div></div>
           </article>
         );
       })}
