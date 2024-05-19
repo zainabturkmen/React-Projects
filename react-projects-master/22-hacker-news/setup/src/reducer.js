@@ -33,8 +33,8 @@ const reducer = (state, action) => {
         return { ...state, page: nextPage };
       }
       if (action.payload === "dec") {
-        let prevPage = state.page + 1;
-        if (prevPage > state.nbPages - 1) {
+        let prevPage = state.page - 1;
+        if (prevPage > 0) {
           prevPage = 0;
         }
         return { ...state, page: prevPage };
