@@ -45,8 +45,8 @@ const AppProvider = ({ children }) => {
   };
 
   const handlePage = (value) => {
-
-  }
+    dispatch({ type: HANDLE_PAGE });
+  };
 
   useEffect(() => {
     fetchStories(`${API_ENDPOINT}query=${state.query}&page=${state.page}`);
