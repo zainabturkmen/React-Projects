@@ -55,7 +55,9 @@ const AppProvider = ({ children }) => {
   }, [state.query]);
 
   return (
-    <AppContext.Provider value={{ ...state, removeStory, handleSearch }}>
+    <AppContext.Provider
+      value={{ ...state, removeStory, handleSearch, handlePage }}
+    >
       {children}
     </AppContext.Provider>
   );
